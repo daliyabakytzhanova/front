@@ -1,0 +1,18 @@
+const TAX_RATE = 0.12;
+const PHONE = 120;
+const CASE = 10;
+const THRESHOLD = 500;
+undefined
+cash = parseInt(prompt("Enter your bank account"));
+function withtaxes(i){
+return i + i * TAX_RATE} function answer(i) {  
+alert(i.toFixed(2)+'$')}i = 0;
+while (i < cash){
+    i += withtaxes(PHONE);
+    if (i < THRESHOLD) {
+        i += withtaxes(CASE)
+    } 
+}   
+if (i > cash) {answer(i), "You can't affort it"}
+ else {answer(i), "You can affort it"};
+"You can't affort it"
