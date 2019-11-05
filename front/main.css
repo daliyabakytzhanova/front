@@ -1,0 +1,27 @@
+#main {
+display:grid;
+grid-template-columns: repeat(4,1fr);
+}
+.card{
+border: 1px solid grey;
+box-shadow: 0.3em 0.3em 5em #BABABA;
+border-radius: 0.5em;
+}
+.fact{
+font-size: 1.2em;
+font-weight: bold;
+text-align: center;
+  margin-bottom: 30px;
+}
+.img{
+width: 100%;
+display: block;
+height:auto;
+border-radius: 0.5em 0.5em 0 0;
+}
+.data{
+display: flex;
+flex-flow: row;
+margin:0 0.5em;
+justify-content: space-between;
+}
